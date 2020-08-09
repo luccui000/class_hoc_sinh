@@ -1,0 +1,1204 @@
+{ 
+	"name": "Luc Cui",
+	"age": 20,
+	"diachi": "Tra Vinh", 
+	"diem": { 
+		"toan": 10, 
+		"ly": 7.5, 
+		"hoa": 8.9, 
+		"sinh": 7.3, 
+		"ngu_van": 8.9, 
+		"lich_su": 5.8, 
+		"dia_li": 7.5, 
+	} 
+},
+{ 
+	"name": "Nguyen Van A",
+	"age": 25,
+	"diachi": "Ha Noi", 
+	"diem": { 
+		"toan": 6.8, 
+		"ly": 2.5, 
+		"hoa": 6, 
+		"sinh": 9.7, 
+		"ngu_van": 4.6, 
+		"lich_su": 7.8, 
+		"dia_li": 8, 
+	} 
+},
+{ 
+	"name": "Bui Tan Tai",
+	"age": 23,
+	"diachi": "Vinh", 
+	"diem": { 
+		"toan": 5.6, 
+		"ly": 4.6, 
+		"hoa": 6.7, 
+		"sinh": 7, 
+		"ngu_van": 5.6, 
+		"lich_su": 8.8, 
+		"dia_li": 8.5, 
+	} 
+},
+{ 
+	"name": "Ngo Tan Tai",
+	"age": 21,
+	"diachi": "Da Nang", 
+	"diem": { 
+		"toan": 7.6, 
+		"ly": 9.6, 
+		"hoa": 5.7, 
+		"sinh": 7, 
+		"ngu_van": 7.6, 
+		"lich_su": 7.8, 
+		"dia_li": 6.5, 
+	} 
+},
+{ 
+	"name": "Tran Van Hang",
+	"age": 22,
+	"diachi": "Hue", 
+	"diem": { 
+		"toan": 7.6, 
+		"ly": 7.6, 
+		"hoa": 7.7, 
+		"sinh": 7, 
+		"ngu_van": 6.6, 
+		"lich_su": 3.8, 
+		"dia_li": 2.5, 
+	} 
+},
+{ 
+	"name": "Ngo Thi Hoa",
+	"age": 23,
+	"diachi": "Dong Nai", 
+	"diem": { 
+		"toan": 7.6, 
+		"ly": 9.6, 
+		"hoa": 9.7, 
+		"sinh": 9, 
+		"ngu_van": 9.6, 
+		"lich_su": 9.8, 
+		"dia_li": 10, 
+	} 
+},
+{ 
+	"name": "Luc Cui",
+	"age": 20,
+	"diachi": "Tra Vinh", 
+	"diem": { 
+		"toan": 10, 
+		"ly": 7.5, 
+		"hoa": 8.9, 
+		"sinh": 7.3, 
+		"ngu_van": 8.9, 
+		"lich_su": 5.8, 
+		"dia_li": 7.5, 
+	} 
+},
+{ 
+	"name": "Nguyen Van A",
+	"age": 25,
+	"diachi": "Ha Noi", 
+	"diem": { 
+		"toan": 6.8, 
+		"ly": 2.5, 
+		"hoa": 6, 
+		"sinh": 9.7, 
+		"ngu_van": 4.6, 
+		"lich_su": 7.8, 
+		"dia_li": 8, 
+	} 
+},
+{ 
+	"name": "Bui Tan Tai",
+	"age": 23,
+	"diachi": "Vinh", 
+	"diem": { 
+		"toan": 5.6, 
+		"ly": 4.6, 
+		"hoa": 6.7, 
+		"sinh": 7, 
+		"ngu_van": 5.6, 
+		"lich_su": 8.8, 
+		"dia_li": 8.5, 
+	} 
+},
+{ 
+	"name": "Ngo Tan Tai",
+	"age": 21,
+	"diachi": "Da Nang", 
+	"diem": { 
+		"toan": 7.6, 
+		"ly": 9.6, 
+		"hoa": 5.7, 
+		"sinh": 7, 
+		"ngu_van": 7.6, 
+		"lich_su": 7.8, 
+		"dia_li": 6.5, 
+	} 
+},
+{ 
+	"name": "Tran Van Hang",
+	"age": 22,
+	"diachi": "Hue", 
+	"diem": { 
+		"toan": 7.6, 
+		"ly": 7.6, 
+		"hoa": 7.7, 
+		"sinh": 7, 
+		"ngu_van": 6.6, 
+		"lich_su": 3.8, 
+		"dia_li": 2.5, 
+	} 
+},
+{ 
+	"name": "Ngo Thi Hoa",
+	"age": 23,
+	"diachi": "Dong Nai", 
+	"diem": { 
+		"toan": 7.6, 
+		"ly": 9.6, 
+		"hoa": 9.7, 
+		"sinh": 9, 
+		"ngu_van": 9.6, 
+		"lich_su": 9.8, 
+		"dia_li": 10, 
+	} 
+},
+{ 
+	"name": "Luc Cui",
+	"age": 20,
+	"diachi": "Tra Vinh", 
+	"diem": { 
+		"toan": 10, 
+		"ly": 7.5, 
+		"hoa": 8.9, 
+		"sinh": 7.3, 
+		"ngu_van": 8.9, 
+		"lich_su": 5.8, 
+		"dia_li": 7.5, 
+	} 
+},
+{ 
+	"name": "Nguyen Van A",
+	"age": 25,
+	"diachi": "Ha Noi", 
+	"diem": { 
+		"toan": 6.8, 
+		"ly": 2.5, 
+		"hoa": 6, 
+		"sinh": 9.7, 
+		"ngu_van": 4.6, 
+		"lich_su": 7.8, 
+		"dia_li": 8, 
+	} 
+},
+{ 
+	"name": "Bui Tan Tai",
+	"age": 23,
+	"diachi": "Vinh", 
+	"diem": { 
+		"toan": 5.6, 
+		"ly": 4.6, 
+		"hoa": 6.7, 
+		"sinh": 7, 
+		"ngu_van": 5.6, 
+		"lich_su": 8.8, 
+		"dia_li": 8.5, 
+	} 
+},
+{ 
+	"name": "Ngo Tan Tai",
+	"age": 21,
+	"diachi": "Da Nang", 
+	"diem": { 
+		"toan": 7.6, 
+		"ly": 9.6, 
+		"hoa": 5.7, 
+		"sinh": 7, 
+		"ngu_van": 7.6, 
+		"lich_su": 7.8, 
+		"dia_li": 6.5, 
+	} 
+},
+{ 
+	"name": "Tran Van Hang",
+	"age": 22,
+	"diachi": "Hue", 
+	"diem": { 
+		"toan": 7.6, 
+		"ly": 7.6, 
+		"hoa": 7.7, 
+		"sinh": 7, 
+		"ngu_van": 6.6, 
+		"lich_su": 3.8, 
+		"dia_li": 2.5, 
+	} 
+},
+{ 
+	"name": "Ngo Thi Hoa",
+	"age": 23,
+	"diachi": "Dong Nai", 
+	"diem": { 
+		"toan": 7.6, 
+		"ly": 9.6, 
+		"hoa": 9.7, 
+		"sinh": 9, 
+		"ngu_van": 9.6, 
+		"lich_su": 9.8, 
+		"dia_li": 10, 
+	} 
+},
+{ 
+	"name": "Luc Cui",
+	"age": 20,
+	"diachi": "Tra Vinh", 
+	"diem": { 
+		"toan": 10, 
+		"ly": 7.5, 
+		"hoa": 8.9, 
+		"sinh": 7.3, 
+		"ngu_van": 8.9, 
+		"lich_su": 5.8, 
+		"dia_li": 7.5, 
+	} 
+},
+{ 
+	"name": "Nguyen Van A",
+	"age": 25,
+	"diachi": "Ha Noi", 
+	"diem": { 
+		"toan": 6.8, 
+		"ly": 2.5, 
+		"hoa": 6, 
+		"sinh": 9.7, 
+		"ngu_van": 4.6, 
+		"lich_su": 7.8, 
+		"dia_li": 8, 
+	} 
+},
+{ 
+	"name": "Bui Tan Tai",
+	"age": 23,
+	"diachi": "Vinh", 
+	"diem": { 
+		"toan": 5.6, 
+		"ly": 4.6, 
+		"hoa": 6.7, 
+		"sinh": 7, 
+		"ngu_van": 5.6, 
+		"lich_su": 8.8, 
+		"dia_li": 8.5, 
+	} 
+},
+{ 
+	"name": "Ngo Tan Tai",
+	"age": 21,
+	"diachi": "Da Nang", 
+	"diem": { 
+		"toan": 7.6, 
+		"ly": 9.6, 
+		"hoa": 5.7, 
+		"sinh": 7, 
+		"ngu_van": 7.6, 
+		"lich_su": 7.8, 
+		"dia_li": 6.5, 
+	} 
+},
+{ 
+	"name": "Tran Van Hang",
+	"age": 22,
+	"diachi": "Hue", 
+	"diem": { 
+		"toan": 7.6, 
+		"ly": 7.6, 
+		"hoa": 7.7, 
+		"sinh": 7, 
+		"ngu_van": 6.6, 
+		"lich_su": 3.8, 
+		"dia_li": 2.5, 
+	} 
+},
+{ 
+	"name": "Ngo Thi Hoa",
+	"age": 23,
+	"diachi": "Dong Nai", 
+	"diem": { 
+		"toan": 7.6, 
+		"ly": 9.6, 
+		"hoa": 9.7, 
+		"sinh": 9, 
+		"ngu_van": 9.6, 
+		"lich_su": 9.8, 
+		"dia_li": 10, 
+	} 
+},
+{ 
+	"name": "Luc Cui",
+	"age": 20,
+	"diachi": "Tra Vinh", 
+	"diem": { 
+		"toan": 10, 
+		"ly": 7.5, 
+		"hoa": 8.9, 
+		"sinh": 7.3, 
+		"ngu_van": 8.9, 
+		"lich_su": 5.8, 
+		"dia_li": 7.5, 
+	} 
+},
+{ 
+	"name": "Nguyen Van A",
+	"age": 25,
+	"diachi": "Ha Noi", 
+	"diem": { 
+		"toan": 6.8, 
+		"ly": 2.5, 
+		"hoa": 6, 
+		"sinh": 9.7, 
+		"ngu_van": 4.6, 
+		"lich_su": 7.8, 
+		"dia_li": 8, 
+	} 
+},
+{ 
+	"name": "Bui Tan Tai",
+	"age": 23,
+	"diachi": "Vinh", 
+	"diem": { 
+		"toan": 5.6, 
+		"ly": 4.6, 
+		"hoa": 6.7, 
+		"sinh": 7, 
+		"ngu_van": 5.6, 
+		"lich_su": 8.8, 
+		"dia_li": 8.5, 
+	} 
+},
+{ 
+	"name": "Ngo Tan Tai",
+	"age": 21,
+	"diachi": "Da Nang", 
+	"diem": { 
+		"toan": 7.6, 
+		"ly": 9.6, 
+		"hoa": 5.7, 
+		"sinh": 7, 
+		"ngu_van": 7.6, 
+		"lich_su": 7.8, 
+		"dia_li": 6.5, 
+	} 
+},
+{ 
+	"name": "Tran Van Hang",
+	"age": 22,
+	"diachi": "Hue", 
+	"diem": { 
+		"toan": 7.6, 
+		"ly": 7.6, 
+		"hoa": 7.7, 
+		"sinh": 7, 
+		"ngu_van": 6.6, 
+		"lich_su": 3.8, 
+		"dia_li": 2.5, 
+	} 
+},
+{ 
+	"name": "Ngo Thi Hoa",
+	"age": 23,
+	"diachi": "Dong Nai", 
+	"diem": { 
+		"toan": 7.6, 
+		"ly": 9.6, 
+		"hoa": 9.7, 
+		"sinh": 9, 
+		"ngu_van": 9.6, 
+		"lich_su": 9.8, 
+		"dia_li": 10, 
+	} 
+},
+{ 
+	"name": "Luc Cui",
+	"age": 20,
+	"diachi": "Tra Vinh", 
+	"diem": { 
+		"toan": 10, 
+		"ly": 7.5, 
+		"hoa": 8.9, 
+		"sinh": 7.3, 
+		"ngu_van": 8.9, 
+		"lich_su": 5.8, 
+		"dia_li": 7.5, 
+	} 
+},
+{ 
+	"name": "Nguyen Van A",
+	"age": 25,
+	"diachi": "Ha Noi", 
+	"diem": { 
+		"toan": 6.8, 
+		"ly": 2.5, 
+		"hoa": 6, 
+		"sinh": 9.7, 
+		"ngu_van": 4.6, 
+		"lich_su": 7.8, 
+		"dia_li": 8, 
+	} 
+},
+{ 
+	"name": "Bui Tan Tai",
+	"age": 23,
+	"diachi": "Vinh", 
+	"diem": { 
+		"toan": 5.6, 
+		"ly": 4.6, 
+		"hoa": 6.7, 
+		"sinh": 7, 
+		"ngu_van": 5.6, 
+		"lich_su": 8.8, 
+		"dia_li": 8.5, 
+	} 
+},
+{ 
+	"name": "Ngo Tan Tai",
+	"age": 21,
+	"diachi": "Da Nang", 
+	"diem": { 
+		"toan": 7.6, 
+		"ly": 9.6, 
+		"hoa": 5.7, 
+		"sinh": 7, 
+		"ngu_van": 7.6, 
+		"lich_su": 7.8, 
+		"dia_li": 6.5, 
+	} 
+},
+{ 
+	"name": "Tran Van Hang",
+	"age": 22,
+	"diachi": "Hue", 
+	"diem": { 
+		"toan": 7.6, 
+		"ly": 7.6, 
+		"hoa": 7.7, 
+		"sinh": 7, 
+		"ngu_van": 6.6, 
+		"lich_su": 3.8, 
+		"dia_li": 2.5, 
+	} 
+},
+{ 
+	"name": "Ngo Thi Hoa",
+	"age": 23,
+	"diachi": "Dong Nai", 
+	"diem": { 
+		"toan": 7.6, 
+		"ly": 9.6, 
+		"hoa": 9.7, 
+		"sinh": 9, 
+		"ngu_van": 9.6, 
+		"lich_su": 9.8, 
+		"dia_li": 10, 
+	} 
+},
+{ 
+	"name": "Luc Cui",
+	"age": 20,
+	"diachi": "Tra Vinh", 
+	"diem": { 
+		"toan": 10, 
+		"ly": 7.5, 
+		"hoa": 8.9, 
+		"sinh": 7.3, 
+		"ngu_van": 8.9, 
+		"lich_su": 5.8, 
+		"dia_li": 7.5, 
+	} 
+},
+{ 
+	"name": "Nguyen Van A",
+	"age": 25,
+	"diachi": "Ha Noi", 
+	"diem": { 
+		"toan": 6.8, 
+		"ly": 2.5, 
+		"hoa": 6, 
+		"sinh": 9.7, 
+		"ngu_van": 4.6, 
+		"lich_su": 7.8, 
+		"dia_li": 8, 
+	} 
+},
+{ 
+	"name": "Bui Tan Tai",
+	"age": 23,
+	"diachi": "Vinh", 
+	"diem": { 
+		"toan": 5.6, 
+		"ly": 4.6, 
+		"hoa": 6.7, 
+		"sinh": 7, 
+		"ngu_van": 5.6, 
+		"lich_su": 8.8, 
+		"dia_li": 8.5, 
+	} 
+},
+{ 
+	"name": "Ngo Tan Tai",
+	"age": 21,
+	"diachi": "Da Nang", 
+	"diem": { 
+		"toan": 7.6, 
+		"ly": 9.6, 
+		"hoa": 5.7, 
+		"sinh": 7, 
+		"ngu_van": 7.6, 
+		"lich_su": 7.8, 
+		"dia_li": 6.5, 
+	} 
+},
+{ 
+	"name": "Tran Van Hang",
+	"age": 22,
+	"diachi": "Hue", 
+	"diem": { 
+		"toan": 7.6, 
+		"ly": 7.6, 
+		"hoa": 7.7, 
+		"sinh": 7, 
+		"ngu_van": 6.6, 
+		"lich_su": 3.8, 
+		"dia_li": 2.5, 
+	} 
+},
+{ 
+	"name": "Ngo Thi Hoa",
+	"age": 23,
+	"diachi": "Dong Nai", 
+	"diem": { 
+		"toan": 7.6, 
+		"ly": 9.6, 
+		"hoa": 9.7, 
+		"sinh": 9, 
+		"ngu_van": 9.6, 
+		"lich_su": 9.8, 
+		"dia_li": 10, 
+	} 
+},
+{ 
+	"name": "Bich Loan",
+	"age": 33,
+	"diachi": "Ben Tre", 
+	"diem": { 
+		"toan": 3.19444, 
+		"ly": 9.99398, 
+		"hoa": 8.41304, 
+		"sinh": 6.27088, 
+		"ngu_van": 3.13674, 
+		"lich_su": 9.02386, 
+		"dia_li": 9.63328, 
+	} 
+},
+{ 
+	"name": "Bich Nga",
+	"age": 47,
+	"diachi": "Tien Giang", 
+	"diem": { 
+		"toan": 4.78647, 
+		"ly": 7.57068, 
+		"hoa": 8.45588, 
+		"sinh": 7.64399, 
+		"ngu_van": 5.49075, 
+		"lich_su": 5.12959, 
+		"dia_li": 0.174719, 
+	} 
+},
+{ 
+	"name": "Bao Thuy",
+	"age": 43,
+	"diachi": "", 
+	"diem": { 
+		"toan": 5.78763, 
+		"ly": 9.75462, 
+		"hoa": 6.6833, 
+		"sinh": 4.9996, 
+		"ngu_van": 6.52768, 
+		"lich_su": 6.31246, 
+		"dia_li": 0.538808, 
+	} 
+},
+{ 
+	"name": "An Khang",
+	"age": 36,
+	"diachi": "Soc Trang", 
+	"diem": { 
+		"toan": 0.00980552, 
+		"ly": 3.42689, 
+		"hoa": 1.22169, 
+		"sinh": 7.4528, 
+		"ngu_van": 5.45693, 
+		"lich_su": 1.70375, 
+		"dia_li": 6.21149, 
+	} 
+},
+{ 
+	"name": "Anh Duy",
+	"age": 29,
+	"diachi": "Dak Lak", 
+	"diem": { 
+		"toan": 9.99465, 
+		"ly": 0.639722, 
+		"hoa": 2.32624, 
+		"sinh": 8.44267, 
+		"ngu_van": 0.729214, 
+		"lich_su": 7.1066, 
+		"dia_li": 2.2148, 
+	} 
+},
+{ 
+	"name": "Luc Cui",
+	"age": 20,
+	"diachi": "Tra Vinh", 
+	"diem": { 
+		"toan": 10, 
+		"ly": 7.5, 
+		"hoa": 8.9, 
+		"sinh": 7.3, 
+		"ngu_van": 8.9, 
+		"lich_su": 5.8, 
+		"dia_li": 7.5, 
+	} 
+},
+{ 
+	"name": "Nguyen Van A",
+	"age": 25,
+	"diachi": "Ha Noi", 
+	"diem": { 
+		"toan": 6.8, 
+		"ly": 2.5, 
+		"hoa": 6, 
+		"sinh": 9.7, 
+		"ngu_van": 4.6, 
+		"lich_su": 7.8, 
+		"dia_li": 8, 
+	} 
+},
+{ 
+	"name": "Bui Tan Tai",
+	"age": 23,
+	"diachi": "Vinh", 
+	"diem": { 
+		"toan": 5.6, 
+		"ly": 4.6, 
+		"hoa": 6.7, 
+		"sinh": 7, 
+		"ngu_van": 5.6, 
+		"lich_su": 8.8, 
+		"dia_li": 8.5, 
+	} 
+},
+{ 
+	"name": "Ngo Tan Tai",
+	"age": 21,
+	"diachi": "Da Nang", 
+	"diem": { 
+		"toan": 7.6, 
+		"ly": 9.6, 
+		"hoa": 5.7, 
+		"sinh": 7, 
+		"ngu_van": 7.6, 
+		"lich_su": 7.8, 
+		"dia_li": 6.5, 
+	} 
+},
+{ 
+	"name": "Tran Van Hang",
+	"age": 22,
+	"diachi": "Hue", 
+	"diem": { 
+		"toan": 7.6, 
+		"ly": 7.6, 
+		"hoa": 7.7, 
+		"sinh": 7, 
+		"ngu_van": 6.6, 
+		"lich_su": 3.8, 
+		"dia_li": 2.5, 
+	} 
+},
+{ 
+	"name": "Ngo Thi Hoa",
+	"age": 23,
+	"diachi": "Dong Nai", 
+	"diem": { 
+		"toan": 7.6, 
+		"ly": 9.6, 
+		"hoa": 9.7, 
+		"sinh": 9, 
+		"ngu_van": 9.6, 
+		"lich_su": 9.8, 
+		"dia_li": 10, 
+	} 
+},
+{ 
+	"name": "Bich Loan",
+	"age": 33,
+	"diachi": "Hung Yen", 
+	"diem": { 
+		"toan": 9.93693, 
+		"ly": 2.40595, 
+		"hoa": 4.32043, 
+		"sinh": 4.49837, 
+		"ngu_van": 4.85802, 
+		"lich_su": 5.26807, 
+		"dia_li": 8.45835, 
+	} 
+},
+{ 
+	"name": "Bich Nga",
+	"age": 47,
+	"diachi": "Ha Noi", 
+	"diem": { 
+		"toan": 1.46255, 
+		"ly": 0.965714, 
+		"hoa": 7.64458, 
+		"sinh": 2.94167, 
+		"ngu_van": 9.86303, 
+		"lich_su": 5.8958, 
+		"dia_li": 4.81277, 
+	} 
+},
+{ 
+	"name": "Bao Thuy",
+	"age": 43,
+	"diachi": "Tra Vinh", 
+	"diem": { 
+		"toan": 7.08501, 
+		"ly": 4.92747, 
+		"hoa": 7.59292, 
+		"sinh": 2.47962, 
+		"ngu_van": 9.24469, 
+		"lich_su": 2.48568, 
+		"dia_li": 0.687272, 
+	} 
+},
+{ 
+	"name": "An Khang",
+	"age": 36,
+	"diachi": "Lam Dong", 
+	"diem": { 
+		"toan": 7.53891, 
+		"ly": 8.59253, 
+		"hoa": 0.429941, 
+		"sinh": 7.44869, 
+		"ngu_van": 8.36658, 
+		"lich_su": 4.50885, 
+		"dia_li": 4.06817, 
+	} 
+},
+{ 
+	"name": "Anh Duy",
+	"age": 29,
+	"diachi": "Binh Thuan", 
+	"diem": { 
+		"toan": 6.91821, 
+		"ly": 9.68269, 
+		"hoa": 1.33324, 
+		"sinh": 2.66036, 
+		"ngu_van": 0.296134, 
+		"lich_su": 5.8319, 
+		"dia_li": 0.338842, 
+	} 
+},
+{ 
+	"name": "Luc Cui",
+	"age": 20,
+	"diachi": "Tra Vinh", 
+	"diem": { 
+		"toan": 10, 
+		"ly": 7.5, 
+		"hoa": 8.9, 
+		"sinh": 7.3, 
+		"ngu_van": 8.9, 
+		"lich_su": 5.8, 
+		"dia_li": 7.5, 
+	} 
+},
+{ 
+	"name": "Nguyen Van A",
+	"age": 25,
+	"diachi": "Ha Noi", 
+	"diem": { 
+		"toan": 6.8, 
+		"ly": 2.5, 
+		"hoa": 6, 
+		"sinh": 9.7, 
+		"ngu_van": 4.6, 
+		"lich_su": 7.8, 
+		"dia_li": 8, 
+	} 
+},
+{ 
+	"name": "Bui Tan Tai",
+	"age": 23,
+	"diachi": "Vinh", 
+	"diem": { 
+		"toan": 5.6, 
+		"ly": 4.6, 
+		"hoa": 6.7, 
+		"sinh": 7, 
+		"ngu_van": 5.6, 
+		"lich_su": 8.8, 
+		"dia_li": 8.5, 
+	} 
+},
+{ 
+	"name": "Ngo Tan Tai",
+	"age": 21,
+	"diachi": "Da Nang", 
+	"diem": { 
+		"toan": 7.6, 
+		"ly": 9.6, 
+		"hoa": 5.7, 
+		"sinh": 7, 
+		"ngu_van": 7.6, 
+		"lich_su": 7.8, 
+		"dia_li": 6.5, 
+	} 
+},
+{ 
+	"name": "Tran Van Hang",
+	"age": 22,
+	"diachi": "Hue", 
+	"diem": { 
+		"toan": 7.6, 
+		"ly": 7.6, 
+		"hoa": 7.7, 
+		"sinh": 7, 
+		"ngu_van": 6.6, 
+		"lich_su": 3.8, 
+		"dia_li": 2.5, 
+	} 
+},
+{ 
+	"name": "Ngo Thi Hoa",
+	"age": 23,
+	"diachi": "Dong Nai", 
+	"diem": { 
+		"toan": 7.6, 
+		"ly": 9.6, 
+		"hoa": 9.7, 
+		"sinh": 9, 
+		"ngu_van": 9.6, 
+		"lich_su": 9.8, 
+		"dia_li": 10, 
+	} 
+},
+{ 
+	"name": "Bich Loan",
+	"age": 33,
+	"diachi": "Hung Yen", 
+	"diem": { 
+		"toan": 3.27118, 
+		"ly": 2.2795, 
+		"hoa": 3.71254, 
+		"sinh": 3.6059, 
+		"ngu_van": 6.31422, 
+		"lich_su": 3.40803, 
+		"dia_li": 7.2974, 
+	} 
+},
+{ 
+	"name": "Bich Nga",
+	"age": 47,
+	"diachi": "Ha Noi", 
+	"diem": { 
+		"toan": 1.21414, 
+		"ly": 2.03269, 
+		"hoa": 8.78289, 
+		"sinh": 6.80068, 
+		"ngu_van": 1.58027, 
+		"lich_su": 7.05624, 
+		"dia_li": 2.11055, 
+	} 
+},
+{ 
+	"name": "Bao Thuy",
+	"age": 43,
+	"diachi": "Tra Vinh", 
+	"diem": { 
+		"toan": 9.57269, 
+		"ly": 5.97802, 
+		"hoa": 5.29569, 
+		"sinh": 9.11894, 
+		"ngu_van": 8.11733, 
+		"lich_su": 6.43803, 
+		"dia_li": 5.41688, 
+	} 
+},
+{ 
+	"name": "An Khang",
+	"age": 36,
+	"diachi": "Lam Dong", 
+	"diem": { 
+		"toan": 6.1375, 
+		"ly": 4.2078, 
+		"hoa": 5.83288, 
+		"sinh": 4.50901, 
+		"ngu_van": 4.20346, 
+		"lich_su": 3.76357, 
+		"dia_li": 1.85562, 
+	} 
+},
+{ 
+	"name": "Anh Duy",
+	"age": 29,
+	"diachi": "Binh Thuan", 
+	"diem": { 
+		"toan": 3.77292, 
+		"ly": 2.52923, 
+		"hoa": 1.03652, 
+		"sinh": 2.82273, 
+		"ngu_van": 6.93195, 
+		"lich_su": 5.37803, 
+		"dia_li": 3.04897, 
+	} 
+},
+{ 
+	"name": "Luc Cui",
+	"age": 20,
+	"diachi": "Tra Vinh", 
+	"diem": { 
+		"toan": 10, 
+		"ly": 7.5, 
+		"hoa": 8.9, 
+		"sinh": 7.3, 
+		"ngu_van": 8.9, 
+		"lich_su": 5.8, 
+		"dia_li": 7.5, 
+	} 
+},
+{ 
+	"name": "Nguyen Van A",
+	"age": 25,
+	"diachi": "Ha Noi", 
+	"diem": { 
+		"toan": 6.8, 
+		"ly": 2.5, 
+		"hoa": 6, 
+		"sinh": 9.7, 
+		"ngu_van": 4.6, 
+		"lich_su": 7.8, 
+		"dia_li": 8, 
+	} 
+},
+{ 
+	"name": "Bui Tan Tai",
+	"age": 23,
+	"diachi": "Vinh", 
+	"diem": { 
+		"toan": 5.6, 
+		"ly": 4.6, 
+		"hoa": 6.7, 
+		"sinh": 7, 
+		"ngu_van": 5.6, 
+		"lich_su": 8.8, 
+		"dia_li": 8.5, 
+	} 
+},
+{ 
+	"name": "Ngo Tan Tai",
+	"age": 21,
+	"diachi": "Da Nang", 
+	"diem": { 
+		"toan": 7.6, 
+		"ly": 9.6, 
+		"hoa": 5.7, 
+		"sinh": 7, 
+		"ngu_van": 7.6, 
+		"lich_su": 7.8, 
+		"dia_li": 6.5, 
+	} 
+},
+{ 
+	"name": "Tran Van Hang",
+	"age": 22,
+	"diachi": "Hue", 
+	"diem": { 
+		"toan": 7.6, 
+		"ly": 7.6, 
+		"hoa": 7.7, 
+		"sinh": 7, 
+		"ngu_van": 6.6, 
+		"lich_su": 3.8, 
+		"dia_li": 2.5, 
+	} 
+},
+{ 
+	"name": "Ngo Thi Hoa",
+	"age": 23,
+	"diachi": "Dong Nai", 
+	"diem": { 
+		"toan": 7.6, 
+		"ly": 9.6, 
+		"hoa": 9.7, 
+		"sinh": 9, 
+		"ngu_van": 9.6, 
+		"lich_su": 9.8, 
+		"dia_li": 10, 
+	} 
+},
+{ 
+	"name": "Bich Loan",
+	"age": 33,
+	"diachi": "Hung Yen", 
+	"diem": { 
+		"toan": 0.261928, 
+		"ly": 4.28643, 
+		"hoa": 1.13391, 
+		"sinh": 3.75125, 
+		"ngu_van": 5.47915, 
+		"lich_su": 5.52196, 
+		"dia_li": 1.55361, 
+	} 
+},
+{ 
+	"name": "Bich Nga",
+	"age": 47,
+	"diachi": "Ha Noi", 
+	"diem": { 
+		"toan": 6.27599, 
+		"ly": 6.3356, 
+		"hoa": 6.93776, 
+		"sinh": 8.06717, 
+		"ngu_van": 6.75989, 
+		"lich_su": 6.51578, 
+		"dia_li": 8.27171, 
+	} 
+},
+{ 
+	"name": "Bao Thuy",
+	"age": 43,
+	"diachi": "Tra Vinh", 
+	"diem": { 
+		"toan": 1.27865, 
+		"ly": 4.91127, 
+		"hoa": 2.98686, 
+		"sinh": 5.5451, 
+		"ngu_van": 1.64408, 
+		"lich_su": 2.58423, 
+		"dia_li": 5.69629, 
+	} 
+},
+{ 
+	"name": "An Khang",
+	"age": 36,
+	"diachi": "Lam Dong", 
+	"diem": { 
+		"toan": 3.03701, 
+		"ly": 0.170198, 
+		"hoa": 3.44612, 
+		"sinh": 9.21446, 
+		"ngu_van": 1.011, 
+		"lich_su": 4.64238, 
+		"dia_li": 8.40201, 
+	} 
+},
+{ 
+	"name": "Anh Duy",
+	"age": 29,
+	"diachi": "Binh Thuan", 
+	"diem": { 
+		"toan": 9.94914, 
+		"ly": 0.70155, 
+		"hoa": 3.69618, 
+		"sinh": 9.52757, 
+		"ngu_van": 2.16918, 
+		"lich_su": 1.26491, 
+		"dia_li": 4.48951, 
+	} 
+},
+{ 
+	"name": "Luc Cui",
+	"age": 20,
+	"diachi": "Tra Vinh", 
+	"diem": { 
+		"toan": 10, 
+		"ly": 7.5, 
+		"hoa": 8.9, 
+		"sinh": 7.3, 
+		"ngu_van": 8.9, 
+		"lich_su": 5.8, 
+		"dia_li": 7.5, 
+	} 
+},
+{ 
+	"name": "Nguyen Van A",
+	"age": 25,
+	"diachi": "Ha Noi", 
+	"diem": { 
+		"toan": 6.8, 
+		"ly": 2.5, 
+		"hoa": 6, 
+		"sinh": 9.7, 
+		"ngu_van": 4.6, 
+		"lich_su": 7.8, 
+		"dia_li": 8, 
+	} 
+},
+{ 
+	"name": "Bui Tan Tai",
+	"age": 23,
+	"diachi": "Vinh", 
+	"diem": { 
+		"toan": 5.6, 
+		"ly": 4.6, 
+		"hoa": 6.7, 
+		"sinh": 7, 
+		"ngu_van": 5.6, 
+		"lich_su": 8.8, 
+		"dia_li": 8.5, 
+	} 
+},
+{ 
+	"name": "Ngo Tan Tai",
+	"age": 21,
+	"diachi": "Da Nang", 
+	"diem": { 
+		"toan": 7.6, 
+		"ly": 9.6, 
+		"hoa": 5.7, 
+		"sinh": 7, 
+		"ngu_van": 7.6, 
+		"lich_su": 7.8, 
+		"dia_li": 6.5, 
+	} 
+},
+{ 
+	"name": "Tran Van Hang",
+	"age": 22,
+	"diachi": "Hue", 
+	"diem": { 
+		"toan": 7.6, 
+		"ly": 7.6, 
+		"hoa": 7.7, 
+		"sinh": 7, 
+		"ngu_van": 6.6, 
+		"lich_su": 3.8, 
+		"dia_li": 2.5, 
+	} 
+},
+{ 
+	"name": "Ngo Thi Hoa",
+	"age": 23,
+	"diachi": "Dong Nai", 
+	"diem": { 
+		"toan": 7.6, 
+		"ly": 9.6, 
+		"hoa": 9.7, 
+		"sinh": 9, 
+		"ngu_van": 9.6, 
+		"lich_su": 9.8, 
+		"dia_li": 10, 
+	} 
+},

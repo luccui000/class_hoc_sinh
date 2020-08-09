@@ -6,11 +6,49 @@
 #include <vector>
 #include <cstdlib>
 #include <random>
+#include <fstream>
+#include <errno.h>
+#include <string.h>
+#include <stack>
+#include <queue>
+#include <jsoncpp/json/json.h>
 
 #define MONHOC 7
 
 void remove_endline() {
   while ((getchar()) != '\n');
+}
+enum XEPLOAI {
+  XUATSAC,
+  GIOI,
+  KHA,
+  TRUNGBINH,
+  YEU,
+  KEM
+};
+std::string XepLoai(XEPLOAI xl) {
+  std::string s;
+  switch(xl) {
+    case XEPLOAI::XUATSAC:
+      s = "Xuat Sac";
+      break;
+    case XEPLOAI::GIOI:
+      s = "Gioi";
+      break;
+    case XEPLOAI::KHA:
+      s = "Kha";
+      break;
+    case XEPLOAI::TRUNGBINH:
+      s = "Trung Binh";
+      break;
+    case XEPLOAI::YEU:
+      s = "Yeu";
+      break;
+    case XEPLOAI::KEM:
+      s = "Kem";
+      break;
+  }
+  return s;
 }
 float rdFloat(int limit) {
   std::random_device rd;  //Will be used to obtain a seed for the random number engine
@@ -36,6 +74,12 @@ void convertArrToS(const Diem& diem, DiemSo &ds) {
 }
 bool isF = true;
 bool isE = true;
+struct SV {
+  std::string name;
+  int age;
+  std::string diachi;
+  Diem d[7];
+};
 class QLSV {
   private:
     Hocsinh m_hs;
@@ -43,6 +87,7 @@ class QLSV {
     DiemSo m_ds;
     static float dtb;
   public:
+    QLSV() {}
     QLSV(Hocsinh hs, DiemSo ds): m_hs(hs), m_ds(ds) { } 
     QLSV(const std::string &s, int tuoi, const std::string& diachi, std::initializer_list<float> ds) {
       m_hs.hoten = s;
@@ -56,6 +101,14 @@ class QLSV {
       m_hs.hoten = s;
       m_hs.tuoi = tuoi;
       m_hs.diachi = tinhthanh[t];
+      int i = 0; 
+      for(auto it : vec) 
+        this->m_diem.diem[i++] = it;
+    };
+    QLSV(const std::string &s, int tuoi, const std::string& addr, std::vector<float> vec) {
+      m_hs.hoten = s;
+      m_hs.tuoi = tuoi;
+      m_hs.diachi = addr;
       int i = 0; 
       for(auto it : vec) 
         this->m_diem.diem[i++] = it;
@@ -84,9 +137,9 @@ class QLSV {
     friend std::ostream& operator<<(std::ostream& os, const QLSV& sv) {
       if(isF) {
         os << "\n\t=================================== QUAN LI HOC SINH =====================================\n";
-        os << "\t+------------------+------+----------+------+----+-----+------+-----+----+-----+---------+\n";
-        os << "\t|        Ten       | Tuoi | Dia Chi  | Toan | Li | Hoa | Sinh | Van | Su | Dia | Diem TB |\n";
-        os << "\t+------------------+------+----------+------+----+-----+------+-----+----+-----+---------+\n"; 
+        os << "\t+------------------+------+----------+------+----+-----+------+-----+----+-----+---------+----------+\n";
+        os << "\t|        Ten       | Tuoi | Dia Chi  | Toan | Li | Hoa | Sinh | Van | Su | Dia | Diem TB | Xep Loai |\n";
+        os << "\t+------------------+------+----------+------+----+-----+------+-----+----+-----+---------+----------+\n"; 
         isF = false;
       }
       os << "\t|";
@@ -100,33 +153,53 @@ class QLSV {
       os << sv.m_hs.diachi;
       os << "|";
       os << std::setw(6);
-      os << sv.m_diem.diem[0];
+      os << std::setprecision(2) << std::fixed <<sv.m_diem.diem[0];
       os << "|";
       os << std::setw(4);
-      os << sv.m_diem.diem[1];
+      os << std::setprecision(2) << std::fixed <<sv.m_diem.diem[1];
       os << "|";
       os << std::setw(5);
-      os << sv.m_diem.diem[2];
+      os << std::setprecision(2) << std::fixed <<sv.m_diem.diem[2];
       os << "|";
       os << std::setw(6);
-      os << sv.m_diem.diem[3];
+      os << std::setprecision(2) << std::fixed <<sv.m_diem.diem[3];
       os << "|";
       os << std::setw(5);
-      os << sv.m_diem.diem[4];
+      os <<std::setprecision(2) << std::fixed << sv.m_diem.diem[4];
       os << "|";
       os << std::setw(4);
-      os << sv.m_diem.diem[5];
+      os << std::setprecision(2) << std::fixed <<sv.m_diem.diem[5];
       os << "|";
       os << std::setw(5);
-      os << sv.m_diem.diem[6];
+      os << std::setprecision(2) << std::fixed <<sv.m_diem.diem[6];
       os << "|";
       os << std::setw(9);
       float d = 0.0f;
       for(int i = 0; i < 7; i++)
         d += sv.m_diem.diem[i];
       dtb = d / MONHOC;
-      os << std::setprecision(2) << std::fixed << dtb << "|\n";
-      os << "\t+------------------+------+----------+------+----+-----+------+-----+----+-----+---------+\n"; 
+      os << std::setprecision(2) << std::fixed << dtb << "|";
+      if(dtb >= 9.0f) {
+        os << std::setw(10);
+        os << XepLoai(XEPLOAI::XUATSAC) << "|\n";
+      } else if(dtb < 9.0f && dtb >= 8.0f) {
+        os << std::setw(10);
+        os << XepLoai(XEPLOAI::GIOI) << "|\n";
+      } else if(dtb < 8.0f && dtb >= 6.5f) {
+        os << std::setw(10);
+        os << XepLoai(XEPLOAI::KHA) << "|\n";
+      } else if(dtb < 6.5f && dtb >= 5.0f) {
+        os << std::setw(9);
+        os << XepLoai(XEPLOAI::TRUNGBINH) << "|\n";
+      } else if(dtb < 5.0f && dtb >= 3.0f) {
+        os << std::setw(10);
+        os << XepLoai(XEPLOAI::YEU) << "|\n";
+      } else {
+        os << std::setw(10);
+        os << XepLoai(XEPLOAI::KEM) << "|\n";
+      }
+
+      os << "\t+------------------+------+----------+------+----+-----+------+-----+----+-----+---------+----------+\n"; 
       return os;
     }
     float getDTB() {
@@ -137,6 +210,48 @@ class QLSV {
     }
     std::string getName() {
       return m_hs.hoten;
+    }
+    void writeJSONFile(const char fname[]) {
+      std::ofstream os("data.json", std::ios::out | std::ios::app);
+      if (os.fail())
+        throw std::ios_base::failure(strerror(errno));
+
+      //make sure write fails with exception if something is wrong
+      os.exceptions(os.exceptions()|std::ios::failbit|std::ifstream::badbit);
+      os << "{ \n";
+      os << "\t\"name\": \"" << m_hs.hoten << "\",\n";
+      os << "\t\"age\": " << m_hs.tuoi << ",\n";
+      os << "\t\"diachi\": \"" << m_hs.diachi << "\", \n";
+      os << "\t\"diem\": { \n";
+      os << "\t\t\"toan\": " << m_diem.diem[0] << ", \n";
+      os << "\t\t\"ly\": " << m_diem.diem[1] << ", \n";
+      os << "\t\t\"hoa\": " << m_diem.diem[2] << ", \n";
+      os << "\t\t\"sinh\": " << m_diem.diem[3] << ", \n";
+      os << "\t\t\"ngu_van\": " << m_diem.diem[4] << ", \n";
+      os << "\t\t\"lich_su\": " << m_diem.diem[5] << ", \n";
+      os << "\t\t\"dia_li\": " << m_diem.diem[6] << ", \n";
+      os << "\t} \n";
+      os << "},\n";
+      os.close();
+    }
+    void loadJSONFile(const std::string& name) {
+      std::ifstream ifs(name, std::ios::in);
+      if (ifs.fail())
+        throw std::ios_base::failure(strerror(errno));
+      Json::Reader reader;
+      Json::Value obj;
+      reader.parse(ifs, obj);
+      m_hs.hoten = obj["name"].asString();
+      m_hs.tuoi = obj["age"].asInt();
+      m_hs.hoten = obj["name"].asString();
+      m_diem.diem[0] = obj["diem"]["toan"].asFloat();
+      m_diem.diem[1] = obj["diem"]["ly"].asFloat();
+      m_diem.diem[2] = obj["diem"]["hoa"].asFloat();
+      m_diem.diem[3] = obj["diem"]["sinh"].asFloat();
+      m_diem.diem[4] = obj["diem"]["ngu_van"].asFloat();
+      m_diem.diem[5] = obj["diem"]["lich_su"].asFloat();
+      m_diem.diem[6] = obj["diem"]["dia_li"].asFloat();
+      ifs.close();
     }
 };
 float QLSV::dtb = 0.0f;
@@ -192,8 +307,17 @@ int main() {
   QLSV *h10 = new QLSV("Dang Van Lam", 24, TINH::HANOI, std::vector<float>{8.4f, 6.6f, 9.7f, 7.5f, 5.5f, 8.8f, 4.5f});
   QLSV *h11 = new QLSV("Ngo Gia Bao", 24, TINH::SOCTRANG, rdDiem()); 
 
+  QLSV *q[5];
+
   std::vector<QLSV*> sv;
-  
+  const std::string ten[] = { "Bich Loan", "Bich Nga",  "Bao Thuy",  "An Khang",  "Anh Duy" };
+
+  for(int i = 0; i < 5; i++) {
+    q[i] = new QLSV(ten[i], rand() % 30 + 20, tinhthanh[rand() % 63], rdDiem());
+    sv.push_back(q[i]);
+    q[i]->writeJSONFile("data.json");
+  }
+
   sv.push_back(h1);
   sv.push_back(h2);
   sv.push_back(h3);
@@ -205,6 +329,12 @@ int main() {
   sv.push_back(h9);
   sv.push_back(h10);
   sv.push_back(h11);
+  h1->writeJSONFile("data.json");
+  h2->writeJSONFile("data.json");
+  h3->writeJSONFile("data.json");
+  h4->writeJSONFile("data.json");
+  h5->writeJSONFile("data.json");
+  h6->writeJSONFile("data.json");
 
   for(auto i : sv) 
     std::cout << *i;
@@ -215,6 +345,5 @@ int main() {
     std::cout << *i;
   std::cout << '\n';
   fillChar(sv);
-
   return 0;
 }
